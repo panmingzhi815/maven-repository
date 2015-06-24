@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu May 28 17:26:21 GMT+08:00 2015
+org.eclipse.nebula.widgets.paperclips.feature-2.0.0-SNAPSHOT-p2artifacts.xml>=
+org.eclipse.nebula.widgets.paperclips.feature-2.0.0-SNAPSHOT.jar>=
+org.eclipse.nebula.widgets.paperclips.feature-2.0.0-SNAPSHOT-p2metadata.xml>=
+org.eclipse.nebula.widgets.paperclips.feature-2.0.0-SNAPSHOT.pom>=

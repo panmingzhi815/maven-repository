@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.eclipse.nebula</groupId>
+  <artifactId>org.eclipse.nebula.updatesite</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20150528092711</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>site</classifier>
+        <extension>zip</extension>
+        <value>1.0.0-SNAPSHOT</value>
+        <updated>20150528092711</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>zip</extension>
+        <value>1.0.0-SNAPSHOT</value>
+        <updated>20150528092711</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.0-SNAPSHOT</value>
+        <updated>20150528092711</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.eclipse.nebula</groupId>
+  <artifactId>org.eclipse.nebula.paperclips.snippets</artifactId>
+  <versioning>
+    <versions>
+      <version>2.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20150528092555</lastUpdated>
+  </versioning>
+</metadata>

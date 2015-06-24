@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.eclipse.nebula.widgets.pshelf.css' version='1.0.0.201505280923'>
+    <properties size='5'>
+      <property name='artifact.size' value='15242'/>
+      <property name='download.size' value='15242'/>
+      <property name='maven-groupId' value='org.eclipse.nebula'/>
+      <property name='maven-artifactId' value='org.eclipse.nebula.widgets.pshelf.css'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.eclipse.nebula.widgets.pshelf.css.source' version='1.0.0.201505280923'>
+    <properties size='6'>
+      <property name='artifact.size' value='9294'/>
+      <property name='download.size' value='9294'/>
+      <property name='maven-groupId' value='org.eclipse.nebula'/>
+      <property name='maven-artifactId' value='org.eclipse.nebula.widgets.pshelf.css'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+    </properties>
+  </artifact>
+</artifacts>

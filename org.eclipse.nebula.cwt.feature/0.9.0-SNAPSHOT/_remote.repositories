@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu May 28 17:26:55 GMT+08:00 2015
+org.eclipse.nebula.cwt.feature-0.9.0-SNAPSHOT.jar>=
+org.eclipse.nebula.cwt.feature-0.9.0-SNAPSHOT-p2artifacts.xml>=
+org.eclipse.nebula.cwt.feature-0.9.0-SNAPSHOT.pom>=
+org.eclipse.nebula.cwt.feature-0.9.0-SNAPSHOT-p2metadata.xml>=

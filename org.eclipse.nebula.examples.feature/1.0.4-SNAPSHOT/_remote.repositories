@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu May 28 17:23:30 GMT+08:00 2015
+org.eclipse.nebula.examples.feature-1.0.4-SNAPSHOT.pom>=
+org.eclipse.nebula.examples.feature-1.0.4-SNAPSHOT-p2metadata.xml>=
+org.eclipse.nebula.examples.feature-1.0.4-SNAPSHOT.jar>=
+org.eclipse.nebula.examples.feature-1.0.4-SNAPSHOT-p2artifacts.xml>=

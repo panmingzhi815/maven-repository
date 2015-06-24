@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='org.eclipse.nebula.feature.feature.group' version='1.0.0.201505280923' singleton='false'>
+    <update id='org.eclipse.nebula.feature.feature.group' range='[0.0.0,1.0.0.201505280923)' severity='0'/>
+    <properties size='7'>
+      <property name='org.eclipse.equinox.p2.name' value='Nebula Widgets'/>
+      <property name='org.eclipse.equinox.p2.description' value='This feature contains the Eclipse Nebula widgets.'/>
+      <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+      <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      <property name='maven-groupId' value='org.eclipse.nebula'/>
+      <property name='maven-artifactId' value='org.eclipse.nebula.feature'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.nebula.feature.feature.group' version='1.0.0.201505280923'/>
+    </provides>
+    <requires size='17'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.nebula.widgets.oscilloscope.feature.feature.group' range='[1.2.0.201505280923,1.2.0.201505280923]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.nebula.widgets.calendarcombo.feature.feature.group' range='[1.0.0.201505280923,1.0.0.201505280923]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.nebula.widgets.compositetable.feature.feature.group' range='[1.0.0.201505280923,1.0.0.201505280923]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.nebula.widgets.gallery.feature.feature.group' range='[1.0.0.201505280923,1.0.0.201505280923]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.nebula.widgets.grid.feature.feature.group' range='[1.0.0.201505280923,1.0.0.201505280923]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.nebula.widgets.pgroup.feature.feature.group' range='[1.0.0.201505280923,1.0.0.201505280923]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.nebula.widgets.pshelf.feature.feature.group' range='[1.0.0.201505280923,1.0.0.201505280923]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.nebula.widgets.tablecombo.feature.feature.group' range='[1.0.0.201505280923,1.0.0.201505280923]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.nebula.widgets.xviewer.feature.feature.group' range='[0.9.9.201505280923,0.9.9.201505280923]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.nebula.effects.stw.feature.feature.group' range='[1.0.0.201505280923,1.0.0.201505280923]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.nebula.widgets.ganttchart.feature.feature.group' range='[1.0.0.201505280923,1.0.0.201505280923]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.nebula.widgets.cdatetime.feature.feature.group' range='[0.14.0.201505280923,0.14.0.201505280923]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.nebula.widgets.paperclips.feature.feature.group' range='[2.0.0.201505280923,2.0.0.201505280923]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.nebula.cwt.feature.feature.group' range='[0.9.0.201505280923,0.9.0.201505280923]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.nebula.widgets.pshelf.css.feature.feature.group' range='[1.0.0.201505280923,1.0.0.201505280923]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.nebula.visualization.feature.feature.group' range='[0.9.9.201505280923,0.9.9.201505280923]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.nebula.feature.feature.jar' range='[1.0.0.201505280923,1.0.0.201505280923]'>
+        <filter>
+          (org.eclipse.update.install.features=true)
+        </filter>
+      </required>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+    <licenses size='1'>
+      <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+        [Enter License Description here.]
+      </license>
+    </licenses>
+    <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+      [Enter Copyright Description here.]
+    </copyright>
+  </unit>
+  <unit id='org.eclipse.nebula.feature.feature.jar' version='1.0.0.201505280923'>
+    <properties size='6'>
+      <property name='org.eclipse.equinox.p2.name' value='Nebula Widgets'/>
+      <property name='org.eclipse.equinox.p2.description' value='This feature contains the Eclipse Nebula widgets.'/>
+      <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+      <property name='maven-groupId' value='org.eclipse.nebula'/>
+      <property name='maven-artifactId' value='org.eclipse.nebula.feature'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+    <provides size='3'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.nebula.feature.feature.jar' version='1.0.0.201505280923'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+      <provided namespace='org.eclipse.update.feature' name='org.eclipse.nebula.feature' version='1.0.0.201505280923'/>
+    </provides>
+    <filter>
+      (org.eclipse.update.install.features=true)
+    </filter>
+    <artifacts size='1'>
+      <artifact classifier='org.eclipse.update.feature' id='org.eclipse.nebula.feature' version='1.0.0.201505280923'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='zipped'>
+          true
+        </instruction>
+      </instructions>
+    </touchpointData>
+    <licenses size='1'>
+      <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+        [Enter License Description here.]
+      </license>
+    </licenses>
+    <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+      [Enter Copyright Description here.]
+    </copyright>
+  </unit>
+</units>
